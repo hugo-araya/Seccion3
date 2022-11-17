@@ -62,7 +62,7 @@ if __name__ == '__main__':
     lbl.grid(column = 0, row = 0)
 
     # Fija las dimensiones de la ventana
-    window.geometry('500x500')
+    window.geometry('500x500+100+200')
 
     # agregar un widget de botón con colores
     # ¿Por qué no puede cambiar el bg?
@@ -114,12 +114,12 @@ if __name__ == '__main__':
     # -- txt.delete(1.0, END)
 
     # Crea un MessageBox
-    # -- messagebox.showinfo('Titulo del mensaje', 'Contenido del mensaje')
+    messagebox.showinfo('Titulo del mensaje', 'Contenido del mensaje')
     # -- messagebox.askquestion('Titulo del mensaje', 'Contenido del mensaje') 
     # -- messagebox.askyesno('Titulo del mensaje', 'Contenido del mensaje')
     # -- messagebox.askokcancel('Titulo del mensaje', 'Contenido del mensaje')
     # -- messagebox.askretrycancel('Titulo del mensaje', 'Contenido del mensaje')
-    messagebox.askyesnocancel('Titulo del mensaje', 'Contenido del mensaje')
+    # messagebox.askyesnocancel('Titulo del mensaje', 'Contenido del mensaje')
     # ok, yes, retry returns TRUE
     # no, cancel returns FALSE
 
